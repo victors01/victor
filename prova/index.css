@@ -1,0 +1,61 @@
+body {
+    color:white;
+    background-color: red;
+}
+
+a mark {
+
+    background-color: brown; 
+    color: rgb(255, 255, 255); 
+    font-weight: 900; 
+    text-transform: "Helvetica";
+    padding: 2px 4px; 
+    border-radius: 3px;
+}
+
+ul li a {
+
+    text-decoration: none; 
+    
+    color: white; 
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 100px; 
+    justify-content: center;
+
+}
+ul{
+
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+ align-items: center;
+ padding: 10px 0;
+ margin: 0;
+
+
+
+}
+
+img {
+    height: 200px; 
+    width: auto;
+    display: block;
+    border-radius:auto;
+    border:auto;
+    margin-right: 300px; 
+}
+
+ul li:first-child {
+    /* Espaçamento à direita que já definimos para separar do link */
+    margin-right: 300px; 
+    
+    /* 1. Define o traço (borda) na parte de baixo */
+    border-bottom: 50px solid black; 
+    
+    /* 2. Adiciona um pequeno espaçamento INTERNO abaixo do brasão
+       para que a borda não fique grudada na imagem. */
+    padding-bottom: 100px; 
+}
